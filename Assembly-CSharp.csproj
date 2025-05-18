@@ -69,20 +69,20 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
-    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PushPhysics.cs" />
+    <Compile Include="Assets\Keypad\Scripts\SlidingDoor.cs" />
+    <Compile Include="Assets\Keypad\Scripts\KeypadButton.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\HandSubsystemManager.cs" />
     <Compile Include="Assets\SimulatedMovementController.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
-    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayRandomSound.cs" />
-    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\MouseComponent.cs" />
+    <Compile Include="Assets\Keypad\Scripts\Keypad.cs" />
+    <Compile Include="Assets\Keypad\Scripts\KeypadInteractionFPV.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
-    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\LightFlicker.cs" />
-    <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
+    <Compile Include="Assets\HeadCollisionDetectior.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1089,6 +1089,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
@@ -1343,10 +1347,6 @@
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
